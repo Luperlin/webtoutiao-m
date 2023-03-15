@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "allowJs": true,
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
@@ -9,6 +10,10 @@
         "src/*"
       ]
     },
+    // "compilerOptions": {
+    //   "allowJs": false,
+    // }
+    // ,
     "lib": [
       "esnext",
       "dom",
